@@ -1,11 +1,10 @@
 public class main {
     public static void main(String[] args) {
         int amount = 1800;
-        int percent = 1;
         int bonus;
         int limit = 1000;
         if (amount >= limit) {
-            bonus = amount * percent / 100;
+            bonus = amount / 100;
         } else {
             bonus = 0;
         }
